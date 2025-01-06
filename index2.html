@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searching and Replacing In JS</title>
+</head>
+<body>
+    
+
+    <h1>Searching and Replacing In JS</h1>
+
+    <p id="search"></p>
+    <p id="replace"></p>
+
+
+    <script>
+
+        let str = "Hey...What are you doing?"
+        let search = str.search("are")
+        let replace = str.replace("Hey","Hello")
+
+        document.getElementById("search").innerHTML = search;
+        document.getElementById("replace").innerHTML = replace;
+
+    </script>
+</body>
+</html>
